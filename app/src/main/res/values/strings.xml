@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Информационная система агентства недвижимости</string>
+    <string name="action_cancelled_meets">Отмененные события</string>
+    <string name="date_time">Дата и время</string>
+    <string name="duration">Длительность, мин</string>
+    <string name="type">Тип события</string>
+    <string name="comment">Комментарий</string>
+    <string name="meetWithClient">Встреча с клиентом</string>
+    <string name="showingSmth">Показ</string>
+    <string name="plainCall">Запланированный звонок</string>
+</resources>

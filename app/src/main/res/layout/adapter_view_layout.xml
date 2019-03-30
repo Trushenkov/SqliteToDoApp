@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvType"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:text="TextViewType"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:text="TextViewDate"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="Отменить"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
